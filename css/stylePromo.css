@@ -1,0 +1,202 @@
+*{/*Resetando valores*/
+	margin: 0px;
+	padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*### -- CABEÇALHO -- ###*/
+header{
+	min-width:2000px;
+    width: auto;
+	height: 200px;
+	/*BACKGROUND*/
+
+}
+	#cabecalho{
+	    width: 1600px;
+	    height: 200px;
+        margin: auto;
+	}
+
+	#logo{
+		width: 150px;
+		height: 150px;
+		background-image: url("../img/logo.png");
+		background-repeat: no-repeat;
+		float: left;
+		margin-left: 150px;
+		margin-top: 25px;
+	}
+    
+	nav{
+		width: 900px;
+		height: 80px;
+		float: left;
+		margin-top: 120px;
+	}
+	#lista_menu{
+        width: 600px;
+        height: 40px;
+		margin: auto;
+		text-align: center;
+        border-left: solid 1px; 
+        border-right: solid 1px; 
+	}
+	#lista_menu li{
+		min-width: 60px;
+		height: 25px;
+		margin-left:5px;
+		margin-right: 5px;
+		font-size:20px;
+		padding: 5px;
+		font-family: Verdana;
+		text-align:center;
+		display:inline-block;
+	}
+    #lista_menu li:hover {
+        border-bottom: solid 2px #d7f4ea;
+        transition: 0.5s;
+    }
+    
+	#login{
+		width: 320px;
+		height: 65px;
+        float: left;
+		margin-top: 85px;
+        
+        border-left-color: #6fcbc1;
+        border-left-width: 1px;
+        border-left-style: solid;
+	}
+    
+    #caixa_inputs{
+        width: 120px;
+        height: 60px;
+        float: left;
+    }
+    .input_login{
+        width: 90px;
+        height: 20px;
+        background-color: #fafafa;
+        margin-top: 5px;
+        margin-left: 5px;
+        border-radius: 1px;
+        border: solid 1px #f2f2f2 ;
+        font-family: Verdana;
+        
+    }
+    #btn_login{
+        width: 70px;
+        height: 25px;
+        margin-top: 20px;
+        margin-right: 10px;
+        border-radius: 3px;
+        border: solid 1px #837d7d;
+        border: solid 1px #b4b4b4;
+        color: #6c95cc;
+        background-color: #f7f7f7;
+        float: left;
+    }
+/*CABEÇALHO - FIM*/
+
+
+/*SECTION*/
+section{
+	width: 1800px;
+	height: auto;
+	min-height: 1300px;
+	margin: auto;
+}
+#content{
+    width: 1500px;
+	min-height: 1200px;
+    margin: auto;
+}
+#destaque{
+    width: 1200px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-bottom: solid 5px #d7f4ea;
+}
+#img_destaque{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+}
+
+#conteudo{
+    width: 1300px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.linha_conteudo{
+    width: 1200px;
+    min-height: 325px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.evento{
+    width: 250px;
+    height: 315px;
+    margin-left: 75px;
+    margin-right: 60px;
+    float: left;
+}
+.cima_evento{
+    width: 250px;
+    height: 200px;
+    border: inset 2px;
+}
+.img_evento{
+    width: 250px;
+    height: 200px;
+    margin: auto;
+}
+.baixo_evento{
+    width: 250px;
+    height: 100px;
+}
+.info_evento{
+    width: 149px;
+    height: 100px;
+    float: left;
+    border-right: solid 1px;
+    font-family: Tahoma;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.preco_evento{
+    width: 98px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-family: Tahoma;
+    color: #2aeb31;
+}
+/*SECTION-fim*/
+
+/*RODAPÉ*/
+footer{
+	width: 85%;
+	height:100px;
+	background-color: gray;
+	margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 25px;
+}	
+/*RODAPÉ - FIM*/

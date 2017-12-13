@@ -1,0 +1,346 @@
+/*CSS*/
+/*CSS*/
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+#content{
+    width: 1000px;
+    height: 950px;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: #eef7ff;
+    margin: auto;
+}
+
+/*|### - CABEÇALHO - ###|*/
+header{
+    width: 1000px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: solid 2px #c9c9c9;
+}
+#cms{
+    width: 700px;
+    height: 100px;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+#logo{
+    width: 300px;
+    height: 150px;
+    float: left;
+}
+#img_logo{
+    width: 300px;
+    height: 100px;
+    margin-top: 25px;
+}
+/*CABEÇALHO - FIM*/
+
+
+/*|### - MENU - ###|*/
+nav{
+    width: 1000px;
+    height: 150px;
+    border-bottom: solid 2px #d1d1d1;
+}
+
+#opt_slct{
+    width: 170px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #c7c7c7;
+    float: left; 
+}
+
+.opt{
+    width: 170px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left; 
+}
+.opt:hover{
+    background-color: #d1d1d1;
+    transition: 0.3s;
+    
+}
+.img_opt{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 5px;
+}
+.icn{
+    width: 100px;
+    height: 100px;
+}
+
+.nome_opt{
+    width: 170px;
+    height: 40px;
+    margin-top: 5px;
+    font-family: tahoma;
+    text-align: center;}
+
+#usuario{
+    width: 240px;
+    height: 150px;
+    margin-left: 40px;
+    float: left;
+    font-family: tahoma;
+    font-size: 15px;
+}
+#mensagem{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+#logout{
+    width: 50px;
+    height: 25px;
+    margin-top: 65px;
+    float: right;
+    margin-right: 15px;
+    text-align: right;
+}
+#logout:hover a{
+    color: #ff5959;
+    transition: 0.1s;
+}
+/*MENU - fim*/
+
+/*--SECTION--*/
+section{
+    width: 1000px;
+    height: 600px;
+    border-bottom: solid 2px #c9c9c9;
+}
+
+#cont{
+    width: 980px;
+    height: 590px;
+    margin: auto;
+    margin-top:10px;
+}
+
+#campo_users{
+    float: left;
+    width: 665px;
+    height: 500px;
+    overflow-y: auto;
+    border-right:  solid 1px;
+}
+
+.user_ref{
+    width: 650px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #458dff;
+    border-left: solid 1px #458dff;
+    border-bottom-left-radius: 2px;
+}
+.info_user_ref{
+    width: 200px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    font-family: tahoma;
+    font-size: 20px;
+    text-align: center;
+    color: #458dff;
+    
+}
+
+.user{
+    width: 650px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #b4b4b4;
+    border-left: solid 1px #b4b4b4;
+    border-bottom-left-radius: 2px;
+}
+.user:hover{
+    background-color: #f0f0f0;
+    transition: 0.1s;
+}
+.info_user{
+    width: 200px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-right: solid 1px;
+    font-family: tahoma;
+    font-size: 20px;
+    text-align: center; 
+}
+
+#options{
+    float: left;
+    width: 305px;
+    margin: auto;
+    height: 590px;
+}
+
+
+/*USUARIO*/
+#cadastro{
+    width: 200px;
+    height: 230px;
+    margin-left: 50px;
+    float: left;
+}
+#next_opt{
+    width: 50px;
+    height: 50px;
+    float:left;
+    margin-left: 5px;
+}
+#icn_next{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+#icn_next:hover{
+    padding-left: 10px;
+    transition: 0.2s;
+}
+
+/*NÍVEL*/
+#cadastro_n{
+    width: 200px;
+    height: 230px;
+    margin-right: 50px;
+    float: right;
+}
+#prev_opt{
+    width: 50px;
+    height: 50px;
+    float:right;
+}
+#icn_prev{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    float: right;
+}
+#icn_prev:hover{
+    padding-right: 10px;
+    transition: 0.2s;
+}
+
+.opt_titulo{
+    font-family: tahoma;
+    margin: auto;
+    text-align: center;
+    color: #458dff;
+    font-size: 25px;
+    border-bottom: solid 1px;
+}
+#form{
+    width: 200px;
+    height: 230px;
+    margin: auto;
+    margin-top: 10px;
+}
+.input_text{
+    width: 150px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+#select{
+    width: 150px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+#btn_enviar{
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+#sobre_user{
+    width: 290px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#input_id{
+    width: 30px;
+    height: 25px;
+}
+.input_user{
+    width: 135px;
+    height: 25px;
+    float: left;
+}
+.campo_sobre_user{
+    width: 190px;
+    height: 30px;
+}
+.abt_campo{
+    width: 55px;
+    height: 25px;
+    float: left;
+    font-family: tahoma;
+    font-size: 15px;
+    text-align: center;
+}
+#select_alterar{
+    width: 135px;
+    height: 25px;
+    float: left;
+}
+#btn_alterar{
+    width: 60px;
+    height: 30px;
+    float: left;
+    color: #14b7ff;
+    margin-left: 50px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#btn_excluir{
+    width: 60px;
+    height: 30px;
+    float: left;
+    color: #f05151;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#btn_salvar_alteracao{
+    width: 90px;
+    height: 30px;
+    color: #3d7df5;
+    margin-left: 55px;
+    margin-top: 5px;
+}
+
+
+
+/*Section - fim*/
+
+/*RODAPÉ*/
+footer{
+    width: 1000px;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+}

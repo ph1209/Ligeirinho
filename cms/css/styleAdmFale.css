@@ -1,0 +1,272 @@
+/*CSS*/
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+#content{
+    width: 1000px;
+    height: 950px;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: #eef7ff;
+    margin: auto;
+}
+
+/*|### - CABEÇALHO - ###|*/
+header{
+    width: 1000px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: solid 2px #c9c9c9;
+}
+#cms{
+    width: 700px;
+    height: 100px;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+#logo{
+    width: 300px;
+    height: 150px;
+    float: left;
+}
+#img_logo{
+    width: 300px;
+    height: 100px;
+    margin-top: 25px;
+}
+/*CABEÇALHO - FIM*/
+
+
+/*|### - MENU - ###|*/
+nav{
+    width: 1000px;
+    height: 150px;
+    border-bottom: solid 2px #d1d1d1;
+}
+
+#opt_slct{
+    width: 170px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #c7c7c7;
+    float: left; 
+}
+
+.opt{
+    width: 170px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left; 
+}
+.opt:hover{
+    background-color: #d1d1d1;
+    transition: 0.3s;
+    
+}
+.img_opt{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 5px;
+}
+.icn{
+    width: 100px;
+    height: 100px;
+}
+
+.nome_opt{
+    width: 170px;
+    height: 40px;
+    margin-top: 5px;
+    font-family: tahoma;
+    text-align: center;}
+
+#usuario{
+    width: 240px;
+    height: 150px;
+    margin-left: 40px;
+    float: left;
+    font-family: tahoma;
+    font-size: 15px;
+}
+#mensagem{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+#logout{
+    width: 50px;
+    height: 25px;
+    margin-top: 65px;
+    float: right;
+    margin-right: 15px;
+    text-align: right;
+}
+#logout:hover a{
+    color: #ff5959;
+    transition: 0.1s;
+}
+/*MENU - fim*/
+
+/*--SECTION--*/
+section{
+    width: 1000px;
+    height: 600px;
+    border-bottom: solid 2px #c9c9c9;
+}
+#principal{
+    width: 950px;
+    height: 590px;
+    margin: auto;
+    overflow-y: auto;
+}
+#linha_ref{
+    width: 900px;
+    height: 50px;
+    margin: auto;
+}
+.coluna_ref{
+    width: 168px;
+    height: 20px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: left;
+    text-align: center;
+    font-family: arial;
+    font-size: 15;
+    background-color: #d6d6d6;
+    border-radius: 5px;
+}
+
+.linha{
+    width: 900px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 2px;
+}
+.coluna{
+    width: 168px;
+    min-height: 20px;
+    height: auto;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: left;
+    text-align: center;
+    font-family: arial;
+    font-size: 12;
+    background-color: #fffff0;
+    border-radius: 5px;
+}
+.coluna_opt{
+    width: 60px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: left;
+}
+.img_opt_fale{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+}
+/*Section - fim*/
+
+/*=============================================================================*/
+/*#=#=#-- ITEM DO ADM FALE --#=#=#*/
+#item_principal{
+    width: 950px;
+    height: 590px;
+    margin: auto;
+    margin-top: 10px;
+}
+#item_voltar{
+    width: 70px;
+    height: 50px;
+    float: left;
+    font-family: tahoma;
+    font-size: 14;
+    text-align: center;
+}
+#item_voltar_icn{
+    width: 45px;
+    height: 45px;
+    margin: auto;
+}
+
+#item_content{
+    width: 600px;
+    height: 590px;
+    margin: auto;
+}
+.item_info{
+    width: 390px;
+    height: 30px;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    border-bottom: solid 1px;
+}
+.item_info_title{
+    font-size: 20;
+    font-family: arial;
+    color: #52a2ff;
+}
+.item_info_cont{
+    font-size: 16;
+    font-family: arial;
+}
+#item_obs{
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#item_obs_title{
+    font-size: 20;
+    font-family: arial;
+    color: #52a2ff;
+    text-align: center;
+    margin: auto;
+}
+#item_obs_cont{
+    font-size: 14;
+    font-family: arial;
+    width: 380px;
+    overflow-y: auto;
+    border: solid 1px;
+    height: 290px;
+}
+
+
+/*=============================================================================*/
+
+/*RODAPÉ*/
+footer{
+    width: 1000px;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+}

@@ -1,0 +1,215 @@
+/*css*/
+/*CSS*/
+/*CSS*/
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+#content{
+    width: 1000px;
+    height: 950px;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: #eef7ff;
+    margin: auto;
+}
+
+/*|### - CABEÇALHO - ###|*/
+header{
+    width: 1000px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: solid 2px #c9c9c9;
+}
+#cms{
+    width: 700px;
+    height: 100px;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+#logo{
+    width: 300px;
+    height: 150px;
+    float: left;
+}
+#img_logo{
+    width: 300px;
+    height: 100px;
+    margin-top: 25px;
+}
+/*CABEÇALHO - FIM*/
+
+
+/*|### - MENU - ###|*/
+nav{
+    width: 1000px;
+    height: 150px;
+    border-bottom: solid 2px #d1d1d1;
+}
+.opt{
+    width: 170px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left; 
+}
+.opt:hover{
+    background-color: #d1d1d1;
+    transition: 0.3s;
+}
+#opt_slct{
+    width: 170px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #c7c7c7;
+    float: left; 
+}
+.img_opt{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 5px;
+}
+.icn{
+    width: 100px;
+    height: 100px;
+}
+
+.nome_opt{
+    width: 170px;
+    height: 40px;
+    margin-top: 5px;
+    font-family: tahoma;
+    text-align: center;}
+
+#usuario{
+    width: 240px;
+    height: 150px;
+    margin-left: 40px;
+    float: left;
+    font-family: tahoma;
+    font-size: 15px;
+}
+#mensagem{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+#logout{
+    width: 50px;
+    height: 25px;
+    margin-top: 65px;
+    float: right;
+    margin-right: 15px;
+    text-align: right;
+}
+#logout:hover a{
+    color: #ff5959;
+    transition: 0.1s;
+}
+/*MENU - fim*/
+
+/*SECTION*/
+section{
+    width: 1000px;
+    height: 600px;
+    border-bottom: solid 2px #c9c9c9;
+}
+#principal{
+    width: 1000px;
+    height: 598px;
+    float: left;
+}
+.add_div{
+    width: 300px;
+    height: 500px;
+    float: left;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 20px;
+
+}
+.add_title{
+    width: 250px;
+    height: 25px;
+    font-family: tahoma;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid 1px;
+    margin: auto;
+}
+#frm_add_corrida{
+    margin-top: 10px;
+    width: 300px;
+    height: 500px;
+}
+.frm_add_cat{
+    margin-top: 10px;
+    width: 300px;
+    height: 150px;
+}
+.input{
+    width: 200px;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+#txtDesc{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 5px;
+    resize: none;
+    font-family: tahoma;
+}
+.view_title{
+    width: 150px;
+    height: 25px;
+    font-family: tahoma;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid 1px;
+    margin: auto;
+}
+.view_itens_div{
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 5px;
+    overflow-y: auto;
+}
+.view_item{
+    width: 170px;
+    height: 20px;
+    font-family: tahoma;
+    font-size: 17px;
+    margin: auto;
+    margin-top: 3px;
+    border-left: solid 1px #bcbcbc;
+    border-bottom: solid 1px #716f6f;
+    border-top-right-radius: 3px;
+}
+.view_item:hover{
+    background-color: #e8e8e8;
+    transition: 0.3s;
+}
+/*SECTION-FIM*/
+
+
+/*rodapé*/
+footer{
+    width: 1000px;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+}
